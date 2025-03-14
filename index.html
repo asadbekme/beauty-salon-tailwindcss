@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty Salon</title>
+    <!-- Tailwind css -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primary: #69b99d;
+        --color-black: #0f241d;
+        --color-gray: #767676;
+        --color-white: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header section starts -->
+    <header class="py-5 bg-white border-b border-gray-300">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center">
+          <a href="#">
+            <img src="./images/logo.png" alt="logo" />
+          </a>
+          <nav class="flex items-center gap-10">
+            <a
+              href="#"
+              class="text-[16px] leading-none font-normal text-black transition-all duration-700 hover:text-primary hover:underline"
+              >Início</a
+            >
+            <a
+              href="#"
+              class="text-[16px] leading-none font-normal text-black transition-all duration-700 hover:text-primary hover:underline"
+              >Sobre</a
+            >
+            <a
+              href="#"
+              class="text-[16px] leading-none font-normal text-black transition-all duration-700 hover:text-primary hover:underline"
+              >Serviços</a
+            >
+            <a
+              href="#"
+              class="text-[16px] leading-none font-normal text-black transition-all duration-700 hover:text-primary hover:underline"
+              >Depoimentos</a
+            >
+            <a
+              href="#"
+              class="text-[16px] leading-none font-normal text-black transition-all duration-700 hover:text-primary hover:underline"
+              >Contato</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Hero section starts -->
+    <section id="hero" class="py-20 bg-white">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="w-full lg:w-[396px] flex flex-col gap-5 items-start">
+            <h1 class="text-4xl font-bold text-black">
+              Saúde natural para os seus cabelos
+            </h1>
+            <p class="text-[18px] leading-none text-gray">
+              Um salão exclusivo em São Paulo, especializado em tratamentos
+              naturais.
+            </p>
+            <button
+              class="bg-primary py-[14px] px-8 rounded text-base text-white font-medium cursor-pointer"
+            >
+              Agendar um horário
+            </button>
+          </div>
+          <div>
+            <img src="./images/hero-image.png" alt="hero image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section ends -->
+
+    <!-- About us section starts -->
+    <section id="about" class="py-20">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="flex-1">
+            <img src="./images/about-image.png" alt="about image" />
+          </div>
+          <div class="flex-1">
+            <h2 class="text-4xl font-bold text-black">Sobre nós</h2>
+            <p class="text-base text-gray">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse sagittis arcu quis nisi luctus, id accumsan felis
+              tristique. Proin quis bibendum diam. Sed consequat nisl laoreet
+              eros ultricies pellentesque. Nullam in est porta, pellentesque
+              massa vitae, vehicula risus. In placerat, felis vitae sodales
+              dictum, lacus quam pretium mi, ut pretium urna turpis eu dui.
+              Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus
+              elementum suscipit, tortor augue vulputate sapien, vitae feugiat
+              enim augue sed. Quisque id aliquam elit. Suspendisse congue
+              pharetra maximus. Duis rutrum velit a leo euismod dictum. Sed
+              sodales est efficitur arcu tincidunt tincidunt. Curabitur
+              fringilla, risus at feugiat feugiat, nisl nulla tincidunt tellus,
+              elementum elementum lorem nisl eleifend dolor. Nullam eget dui at
+              sem ullamcorper luctus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About us section ends -->
+  </body>
+</html>
