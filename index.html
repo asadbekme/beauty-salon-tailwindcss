@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Salon</title>
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Tailwind css -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
@@ -12,6 +21,19 @@
         --color-black: #0f241d;
         --color-gray: #767676;
         --color-white: #f9f9f9;
+      }
+
+      body {
+        font-family: "DM Sans", sans-serif;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Poppins", sans-serif;
       }
 
       .navbar__link {
@@ -75,22 +97,24 @@
             <img src="./images/about-image.png" alt="about image" />
           </div>
           <div class="flex-1">
-            <h2 class="section__title">Sobre nós</h2>
+            <h2 class="section__title mb-4">Sobre nós</h2>
             <p class="text-base text-gray">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse sagittis arcu quis nisi luctus, id accumsan felis
               tristique. Proin quis bibendum diam. Sed consequat nisl laoreet
               eros ultricies pellentesque. Nullam in est porta, pellentesque
-              massa vitae, vehicula risus. In placerat, felis vitae sodales
-              dictum, lacus quam pretium mi, ut pretium urna turpis eu dui.
-              Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus
-              elementum suscipit, tortor augue vulputate sapien, vitae feugiat
-              enim augue sed. Quisque id aliquam elit. Suspendisse congue
-              pharetra maximus. Duis rutrum velit a leo euismod dictum. Sed
-              sodales est efficitur arcu tincidunt tincidunt. Curabitur
-              fringilla, risus at feugiat feugiat, nisl nulla tincidunt tellus,
-              elementum elementum lorem nisl eleifend dolor. Nullam eget dui at
-              sem ullamcorper luctus.
+              massa vitae, vehicula risus. <br />
+              <br />
+              In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut
+              pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec
+              luctus, nunc finibus elementum suscipit, tortor augue vulputate
+              sapien, vitae feugiat enim augue sed. <br />
+              <br />
+              Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis
+              rutrum velit a leo euismod dictum. Sed sodales est efficitur arcu
+              tincidunt tincidunt. Curabitur fringilla, risus at feugiat
+              feugiat, nisl nulla tincidunt tellus, elementum elementum lorem
+              nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.
             </p>
           </div>
         </div>
