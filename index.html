@@ -53,6 +53,9 @@
       .section__title {
         @apply text-[30px] lg:text-4xl font-bold text-secondary;
       }
+      .section__button {
+        @apply bg-primary py-[14px] px-8 rounded text-base text-graylight font-medium cursor-pointer;
+      }
     </style>
   </head>
   <body>
@@ -92,11 +95,7 @@
               Um salão exclusivo em São Paulo, especializado em tratamentos
               naturais.
             </p>
-            <button
-              class="bg-primary py-3.5 px-8 rounded text-base text-graylight font-medium cursor-pointer"
-            >
-              Agendar um horário
-            </button>
+            <button class="section__button">Agendar um horário</button>
           </div>
           <div>
             <img src="./images/hero-image.png" alt="hero image" />
@@ -241,5 +240,82 @@
       </div>
     </section>
     <!-- Clients section ends -->
+
+    <!-- Contact section starts -->
+    <section id="contact" class="bg-graylight py-20 lg:py-32">
+      <div class="container">
+        <div
+          class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-14 lg:gap-0"
+        >
+          <div class="flex flex-col items-start gap-5 w-full lg:w-[404px]">
+            <h2 class="section__title">Entre em contato com a gente!</h2>
+            <p class="font-normal text-gray">
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <button class="section__button flex items-center gap-3">
+              <i class="fa-brands fa-whatsapp text-2xl"></i> Entrar em contato
+            </button>
+          </div>
+          <div class="flex flex-col gap-7">
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-phone size-6 text-primary text-2xl"></i>
+              <p class="text-gray">11 99845-6754</p>
+            </div>
+            <div class="flex items-center gap-3">
+              <i
+                class="fa-solid fa-location-dot size-6 text-primary text-2xl"
+              ></i>
+              <p class="text-gray">R. Amauri Souza, 346</p>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-envelope size-6 text-primary text-2xl"></i>
+              <p class="text-gray">contato@beautysalon.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section ends -->
+
+    <!-- Footer section starts -->
+    <footer class="bg-primary py-20">
+      <div class="container">
+        <div
+          class="flex flex-col gap-7 lg:flex-row lg:justify-between lg:items-center"
+        >
+          <div class="flex flex-col items-start gap-5">
+            <img class="mb-2" src="./images/footer-logo.png" alt="logo image" />
+            <p class="font-normal text-[16px] leading-none text-graylight">
+              ©2021 Beautysalon.
+            </p>
+            <p class="font-normal text-[16px] leading-none text-graylight">
+              Todos os direitos reservados.
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <a
+              class="text-white text-2xl"
+              target="_blank"
+              href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram fa-beat"></i
+            ></a>
+            <a
+              class="text-white text-2xl"
+              target="_blank"
+              href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook-f fa-beat"></i
+            ></a>
+            <a
+              class="text-white text-2xl"
+              target="_blank"
+              href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube fa-beat"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends -->
   </body>
 </html>
